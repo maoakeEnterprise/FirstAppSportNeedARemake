@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maoak.app_sport">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.SecondActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Modif_profil">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Modif_profil" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Exercice_add">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Exercice_add" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Exercices_read">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Exercices_read" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test_fragment">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.test_fragment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Muscle">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Muscle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Muscle_exo">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Muscle_exo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Muscle_choisis">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Muscle_choisis" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Init_prog">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Init_prog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Programme_exo">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Programme_exo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Serie_exo">
+            <intent-filter>
+                <action android:name="com.example.maoak.app_sport.Serie_exo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

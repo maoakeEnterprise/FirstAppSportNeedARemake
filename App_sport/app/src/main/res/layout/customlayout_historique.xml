@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drop_spinner">
+
+
+    <TextView
+        android:id="@+id/nom_prog"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/couleur_test"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nom_exo"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nom_prog"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="86dp"
+        android:layout_height="23dp"
+        android:layout_alignBottom="@+id/nom_exo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/nom_exo"
+        android:background="@color/texte_bouton"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

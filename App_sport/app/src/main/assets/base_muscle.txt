@@ -1,0 +1,10 @@
+Triceps::
+Poitrine::
+Epaule::
+Biceps::
+Abdos::
+Dos::
+Avant-bras::
+Cuisses::
+Fessiers::
+Jambe::
